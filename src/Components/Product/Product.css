@@ -1,0 +1,14 @@
+.product{width: 308px;
+ height: 510px;
+ font-family: Lato;
+}
+
+.product img{
+width: 286px;
+height: 286px;
+border-radius: 8px;
+margin: 7px;
+}
+.product-name{
+    font-size: 21px;
+}
