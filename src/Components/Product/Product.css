@@ -1,6 +1,9 @@
 .product{width: 308px;
- height: 510px;
+ height: 600px;
  font-family: Lato;
+ border: 1px solid rgb(158, 157, 157);
+ border-radius: 8px;
+ position: relative;
 }
 
 .product img{
@@ -9,6 +12,26 @@ height: 286px;
 border-radius: 8px;
 margin: 7px;
 }
+.product-info{
+    padding: 0 14px;
+}
 .product-name{
     font-size: 21px;
+}
+.product-btn{
+    background-color: #FFE0B3;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-btn:hover{
+    background-color: orange;
+}
+.btn-text{
+    margin-right: 5px;
 }
